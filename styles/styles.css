@@ -27,14 +27,14 @@
   .hero h5 {
       font-size: 24px;
     }
-  .hero .landscape {
+  .hero.landscape {
       color: white;
     }
 
-  .hero .bridge  {
+  .hero.bridge {
     background-image: url("img/gallery/bridge.jpg");
-    width: 100%>
   }
+
 
   .cta {
     background: black;
@@ -105,3 +105,52 @@
     max-width: 740px;
     margin-bottom: 40px;
   }
+  #social {
+    padding: 20px;
+  }
+
+  #social a {
+    margin-top: 0 10px 0 10px;
+    text-decoration: none;
+  }
+
+  #social img {
+    height: 20px;
+    opacity: .5;
+  }
+  #footer {
+    height: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+  #footer .footer-item {
+    max-width: 100px;
+    text-align: left;
+    margin-left: 50px;
+  }
+  #footer a {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+    line-height: 40px;
+    font-weight: 100px;
+  }
+  #copyright {
+    margin-left: auto;
+    color: #00e2ac;
+    text-align: right;
+    display: flex;
+    align-content: flex-end;
+    }
+
+    #copyright span {
+      display: flex;
+      justify-content: flex-end;
+    }
